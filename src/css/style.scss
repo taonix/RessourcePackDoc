@@ -1,25 +1,99 @@
 @font-face {
-  font-family: "helvetica";
-  font-style: italic;
-  src: url('../font/helvetica/Helvetica.ttf');
+    font-family: "helvetica";
+    font-style: italic;
+    src: url('../font/helvetica/Helvetica.ttf');
 }
 
 @font-face {
-  font-family: "helvetica light";
-  font-style: italic;
-  src: url('../font/helvetica/helvetica-light-587ebe5a59211.ttf');
+    font-family: "helvetica bold";
+    font-style: italic;
+    src: url('../font/bold.otf');
 }
 
 @font-face {
-  font-family: myFirstFont;
-  src: url('../font/helvetica/helvetica-light-587ebe5a59211.ttf');
+    font-family: "helvetica normal";
+    font-style: italic;
+    src: url('../font/normal.ttf');
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.h1 {
+    font-family: "helvetica bold", sans-serif !important;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.h2 {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.h3 {
+    font-size: 1.17em;
+    font-weight: bolder;
+}
+
+.h4 {
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.h5 {
+    font-size: .83em;
+    font-weight: bolder;
+}
+
+.h6 {
+    font-family: "helvetica", sans-serif !important;
+    font-size: .67em;
+    font-weight: bolder;
+}
+
+.hr {
+    height: 1px;
+    background-color: white;
+    width: 25%;
+    margin: 20px 0;
+}
+
+#files_tree {
+    padding: 10px;
+    color: black;
+    width: auto;
+    background: lightgrey;
+}
+
+#files_tree ul {
+    width: max-content;
+    list-style: none;
+}
+
+#files_tree > ul {
+    padding: 0;
+}
+
+p {
+    font-family: "helvetica normal", sans-serif !important;
+}
+
+main {
+    margin: 0 5%;
 }
 
 body {
-  background-color: #40444b;
-  font-family: "helvetica", Helvetica, Arial, sans-serif;
+    background-color: #40444b;
+    font-family: "helvetica", Helvetica, Arial, sans-serif;
 }
 
 .thin {
-  font-family: myFirstFont, sans-serif !important;
+    font-family: "helvetica light", sans-serif !important;
+}
+
+.text-justify {
+    text-align: justify;
 }

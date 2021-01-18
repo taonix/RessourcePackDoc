@@ -8,7 +8,7 @@ $(function() {
         "            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n" +
         "                <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n" +
         "                    <li class=\"nav-item dropdown\">\n" +
-        "                        <a class=\"nav-link\" href=\"./src/menus/preambule.html\" id=\"Main\" role=\"button\" aria-expanded=\"false\">\n" +
+        "                        <a class=\"nav-link\" href=\"https://taonix.github.io/RessourcePackDoc/src/menus/preambule.html\" id=\"Main\" role=\"button\" aria-expanded=\"false\">\n" +
         "                            Préambule\n" +
         "                        </a>\n" +
         "                    </li>\n" +

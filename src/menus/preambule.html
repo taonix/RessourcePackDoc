@@ -1,20 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Préambule</title>
-    <link rel="stylesheet" href="../css/bootstrap/bootstrap.css">
+
+    <!-- Import bootstrap 5 -->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.css">
+
+    <!-- Fontawesome 5.15.1 -->
+    <link rel="stylesheet" type="text/css" href="../css/fontawesome-5.15.1/all.css">
+
+    <!-- Mon CSS/SCSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/bootstrap/bootstrap.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="../js/nav.js"></script>
 </head>
 <body>
-    <div style="margin-left: 1%; margin-top: 1%;">
-        <h1 class="text-white"><b>Introduction</b></h1>
-        <h6 class="text-white thin" style="margin-top: -1%">Rédigé par Mushroom</h6>
-        <br>
-        <p class="text-white thin">Minecraft, un jeu avec des possibilités infini, enfin pas pour tout le monde ! c’est pour ça que les ressources pack on étaient inventés. Avec les ressources pack nous pouvons tout faire, que ce soit du modelling 3D ou juste changer les textures du jeu. Je vous propose aujourd’hui un petit site où vous aurez toute la doc sur les ressources pack. Si vous avez des propositions de chose a rajouter sur cette doc merci de nous contacter à cette adresse mail : “email”(merci de prendre en compte que cette doc est à partir de la 1.16). </p>
-    </div>
+    <main>
+        <div class="text-white">
+            <div class="row">
+                <h1 class="fw-bold h1 mt-4 mb-0">Introduction</h1>
+                <h2 class="fw-normal h4">Rédigé par Mushroom</h2>
+                <div class="hr"></div>
+                <p class="text-justify thin my-3">Minecraft, un jeu avec des possibilités infini, enfin pas pour tout le monde ! c’est pour ça que les ressources pack on étaient inventés. Avec les ressources pack nous pouvons tout faire, que ce soit du modelling 3D ou juste changer les textures du jeu. Je vous propose aujourd’hui un petit site où vous aurez toute la doc sur les ressources pack. Si vous avez des propositions de chose a rajouter sur cette doc merci de nous contacter à cette adresse mail : “email”(merci de prendre en compte que cette doc est à partir de la 1.16). </p>
+
+            </div>
+
+            <div class="row">
+                <h1 class="col-12 fw-bold h1 mt-4 mb-0">Organisation des fichiers</h1>
+
+                <div class="row">
+                    <div class="col-12 hr"></div>
+                </div>
+
+                <div class="col-12" id="files_tree">
+                    <ul>
+                        <li><i class="fas fa-file"></i> File 1</li>
+                        <li><i class="fas fa-file"></i> File 2</li>
+                        <li class="expendable collapsed"><i class="fas fa-folder"></i> Folder 1
+                            <ul>
+                                <li><i class="fas fa-file"></i> File 1.1</li>
+                                <li class="expendable collapsed"><i class="fas fa-folder"></i> Folder 1.1
+                                    <ul>
+                                        <li><i class="fas fa-file"></i> File 1.1.1</li>
+                                        <li><i class="fas fa-file"></i> File 1.1.2</li>
+                                    </ul>
+                                </li>
+                                <li><i class="fas fa-file"></i> File 1.2</li>
+                            </ul>
+                        </li>
+                        <li><i class="fas fa-file"></i> File 3</li>
+                        <li><i class="fas fa-file"></i> File 4</li>
+                    </ul>
+                </div>
+                <!-- /file-tree -->
+            </div>
+
+        </div>
+    </main>
+
+    <!-- JS bootstrap 5 -->
+    <script src="../js/bootstrap/bootstrap.js"></script>
+
+    <!-- JS Fontawesome 5.15.1 -->
+    <script type="text/javascript" src="../js/fontawesome-5.15.1/all.js"></script>
+
+    <!-- JS jQuery 3.5.1 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Mes JS -->
+    <script src="../js/nav.js"></script>
 </body>
 </html>
