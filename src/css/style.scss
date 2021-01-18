@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "helvetica";
+  font-style: italic;
+  src: url('../font/helvetica/Helvetica.ttf');
+}
+
+@font-face {
+  font-family: "helvetica light";
+  font-style: italic;
+  src: url('../font/helvetica/helvetica-light-587ebe5a59211.ttf');
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url('../font/helvetica/helvetica-light-587ebe5a59211.ttf');
+}
+
+body {
+  background-color: #40444b;
+  font-family: "helvetica", Helvetica, Arial, sans-serif;
+}
+
+.thin {
+  font-family: myFirstFont, sans-serif !important;
+}
