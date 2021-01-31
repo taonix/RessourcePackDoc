@@ -50,6 +50,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bolder;
 }
 
+.row > div {
+  padding-left: 0;
+  margin-left: calc(var(--bs-gutter-x) / 2);
+}
+
 .hr {
   height: 1px;
   background-color: white;
